@@ -1,0 +1,88 @@
+@media screen and (max-width: 992px) {
+  .App nav .navigation-container .navigation ul {
+    position: absolute;
+    display: none;
+    height: 100vh;
+    width: 0;
+    background-color: rgba(17, 34, 51, 0.9921568627);
+    right: 0;
+    top: 60px;
+    z-index: 2;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+  }
+  .App nav .navigation-container .contact-us {
+    display: none;
+  }
+  .App nav .navigation-container .nav-toggle {
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+  }
+  .App nav .navigation-container .nav-toggle .hamburger {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .App nav .navigation-container .nav-toggle .hamburger::before {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    transform: translateY(-10px);
+    transition: 0.5s;
+  }
+  .App nav .navigation-container .nav-toggle .hamburger::after {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    transform: translateY(10px);
+    transition: 0.5s;
+    /* garis tengah itu shadownya konten ini */
+    box-shadow: 0 -10px #fff;
+  }
+  .App nav .navigation-container.active .nav-toggle .hamburger::before {
+    transform: translateY(0px) rotate(45deg);
+  }
+  .App nav .navigation-container.active .nav-toggle .hamburger::after {
+    transform: translateY(0px) rotate(-45deg);
+    /* box shadownya nanti menyatu dengan konten */
+    box-shadow: 0 0 #333;
+  }
+  .App nav .navigation-container.active .navigation ul {
+    display: flex;
+    width: 100%;
+  }
+  .App main section#Hero .hero-container .top {
+    flex-direction: column;
+  }
+  .App main section#Hero .hero-container .top .left h1 {
+    font-size: 2rem;
+  }
+  .App main section#Hero .hero-container .bottom {
+    display: none;
+  }
+  .App main section#Services .services-container .services--details {
+    flex-direction: column;
+    margin: 0;
+  }
+  .App main section#Work .work-container .work--details {
+    flex-direction: column;
+  }
+  .App footer .footer-container h1 {
+    font-size: 2rem;
+  }
+  .App footer .footer-container .bottom-nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

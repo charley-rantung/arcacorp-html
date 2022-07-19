@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Agency</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+      html,
+      body,
+      #root {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Montserrat", sans-serif;
+        width: 100%;
+        height: 100vh;
+        color: #fff;
+      }
+      .container {
+        width: 100%;
+      }
+      .safe-area-view {
+        max-width: 1280px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 24px;
+        padding-left: 24px;
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="App">
+      <nav class="container">
+        <div class="safe-area-view navigation-container">
+          <div class="brand">
+            <img class="brand--logo" src="./assets/logo.svg" />
+            <h4 class="brand--name">DigitalAgency</h4>
+          </div>
+          <div class="navigation">
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Services</a>
+              </li>
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">Our Client</a>
+              </li>
+            </ul>
+          </div>
+          <div class="contact-us">Contact Us</div>
+          <div class="nav-toggle">
+            <div class="hamburger"></div>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <section id="Hero" class="container">
+          <div class="safe-area-view hero-container">
+            <div class="top">
+              <div class="left">
+                <h1>
+                  We are a creative digital agency to provide solutions to your
+                  problems.
+                </h1>
+              </div>
+              <div class="right">
+                <p>
+                  Digital Agency dedicated to solving problems and creating
+                  impactful digital experience for user. We make digital
+                  products with aim of giving the best to users.
+                </p>
+                <div class="button-wrapper">
+                  <button class="primary-button">Request a quote</button>
+                  <button class="secondary-button">
+                    <span>
+                      <img src="./assets/play.svg" />
+                      <p>Watch demo</p>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="bottom">
+              <img
+                src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+              />
+            </div>
+          </div>
+        </section>
+        <section id="Services" class="container">
+          <div class="safe-area-view services-container">
+            <div class="services--details">
+              <div class="services--title">
+                Digital agency work to interact and our services can help you.
+              </div>
+              <div class="services--desc">
+                We want to provided a user-friendly experience with the eyes
+                capture designs and develop products quickly with the ability to
+                solve user problems.
+              </div>
+            </div>
+            <div class="services--items">
+              <div class="services-card">
+                <img src="./assets/web.png" />
+                <h1>Web Development</h1>
+                <p>
+                  Build your beautiful agency website with us that converts more
+                  visitors than any other website and the ability to interact
+                  and rotate product to solve user problems.
+                </p>
+                <a>Learn More &gt;</a>
+              </div>
+              <div class="services-card">
+                <img src="./assets/devices.png" />
+                <h1>UI/UX Design</h1>
+                <p>
+                  Build your beautiful agency website with us that converts more
+                  visitors than any other website and the ability to interact
+                  and rotate product to solve user problems.
+                </p>
+                <a>Learn More &gt;</a>
+              </div>
+              <div class="services-card">
+                <img src="/assets/console.png" />
+                <h1>VR & 3D Games</h1>
+                <p>
+                  Build your beautiful agency website with us that converts more
+                  visitors than any other website and the ability to interact
+                  and rotate product to solve user problems.
+                </p>
+                <a>Learn More &gt;</a>
+              </div>
+              <div class="services-card">
+                <img src="/assets/video.png" />
+                <h1>VFX Videos & Trailers</h1>
+                <p>
+                  Build your beautiful agency website with us that converts more
+                  visitors than any other website and the ability to interact
+                  and rotate product to solve user problems.
+                </p>
+                <a>Learn More &gt;</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="Dedicated" class="container">
+          <div class="safe-area-view dedicated-container">
+            <div class="left">
+              <h1>Dedicated to the success of your digital product.</h1>
+              <p>
+                We created modern and customized websites for your business
+                growth. and enter the talk room with us.
+              </p>
+              <ul>
+                <li>Fast and easy to create website</li>
+                <li>High quality design software products</li>
+                <li>Beautiful UI elements to build page</li>
+                <li>
+                  Immersive pixel perfect user interfaces for VR, Mobile and
+                  desktop game
+                </li>
+                <li>
+                  Proven design system to scale start ups with agile iterative
+                  design model
+                </li>
+              </ul>
+            </div>
+            <div class="right">
+              <img
+                src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              />
+            </div>
+          </div>
+        </section>
+        <section id="Work" class="container">
+          <div class="safe-area-view work-container">
+            <div class="work--details">
+              <div class="work--title">
+                How we work to develop digital products with the ability
+                interact
+              </div>
+              <div class="work--desc">
+                We want to provied a user-friendly experience with the eyes
+                capture designs and develop products quickly with the ability to
+                solve user problems.
+              </div>
+            </div>
+            <div class="work--items">
+              <div class="work-card">
+                <div class="work-card--img">
+                  <div class="work-card--number">01</div>
+                </div>
+                <h1 class="work-card--title">Product Research</h1>
+                <p class="work-card--desc">
+                  Do the product research needed to find solution to the problem
+                  and we do it with the team
+                </p>
+              </div>
+              <div class="work-card">
+                <div class="work-card--img">
+                  <div class="work-card--number">02</div>
+                </div>
+                <h1 class="work-card--title">Data Collection</h1>
+                <p class="work-card--desc">
+                  Do the product research needed to find solution to the problem
+                  and we do it with the team
+                </p>
+              </div>
+              <div class="work-card">
+                <div class="work-card--img">
+                  <div class="work-card--number">03</div>
+                </div>
+                <h1 class="work-card--title">Problem Solving</h1>
+                <p class="work-card--desc">
+                  Do the product research needed to find solution to the problem
+                  and we do it with the team
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="container">
+        <div class="safe-area-view footer-container">
+          <h1>
+            Want to develop your digital product? <br />
+            Let's talk with us to get the solution
+          </h1>
+          <p>
+            Let's discuss the project business that will be done with our team
+            to develop the digital product you want
+          </p>
+          <button>Let's Discuss</button>
+          <div class="bottom-nav">
+            <ul>
+              <li>Services</li>
+              <li>About Us</li>
+              <li>Our Client</li>
+              <li>Contact Us</li>
+            </ul>
+            <div class="brand">
+              <img class="brand--logo" src="./assets/logo.svg" />
+              <h4 class="brand--name">DigitalAgency</h4>
+            </div>
+            <div class="social-media">
+              <img src="./assets/gmail.svg" />
+              <img src="./assets/fb.svg" />
+              <img src="./assets/ig.svg" />
+              <img src="./assets/tw.svg" />
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      $(document).ready(() => {
+        $(".nav-toggle").click(() => {
+          $(".navigation-container").toggleClass("active");
+        });
+      });
+      // const navToggle = document.querySelector(".nav-toggle");
+      // const navigation = document.querySelector(".navigation-container");
+      // navToggle.addEventListener("click", () => {
+      //   navigation.classList.toggle("active");
+      // });
+    </script>
+  </body>
+</html>

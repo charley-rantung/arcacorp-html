@@ -1,0 +1,469 @@
+.App {
+  width: 100%;
+}
+.App nav {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  background: #123;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+.App nav .navigation-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+.App nav .navigation-container .brand {
+  display: flex;
+  align-items: center;
+}
+.App nav .navigation-container .brand .brand--logo {
+  height: 28px;
+  width: 28px;
+}
+.App nav .navigation-container .brand .brand--name {
+  margin: 0 0 0 16px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+.App nav .navigation-container .navigation ul {
+  display: flex;
+  transition: all 200ms;
+}
+.App nav .navigation-container .navigation ul li {
+  list-style: none;
+}
+.App nav .navigation-container .navigation ul li a {
+  display: inline-block;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.5333333333);
+  text-decoration: none;
+}
+.App nav .navigation-container .contact-us {
+  padding: 16px;
+  border: 1px solid #fff;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+}
+.App main {
+  width: 100%;
+}
+.App main section#Hero {
+  padding-top: 80px;
+  background-color: #123;
+}
+.App main section#Hero .hero-container .top {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+}
+.App main section#Hero .hero-container .top .left {
+  flex: 4;
+  padding: 20px 0;
+}
+.App main section#Hero .hero-container .top .left h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 0;
+}
+.App main section#Hero .hero-container .top .right {
+  flex: 3;
+  padding: 20px 0;
+}
+.App main section#Hero .hero-container .top .right p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2rem;
+  margin: 0 0 32px 0;
+}
+.App main section#Hero .hero-container .top .right .button-wrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.App
+  main
+  section#Hero
+  .hero-container
+  .top
+  .right
+  .button-wrapper
+  button.primary-button {
+  border: none;
+  border-radius: 4px;
+  height: 48px;
+  width: 160px;
+  background-color: rgb(231, 90, 38);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: 0 0 14px 1px rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+.App
+  main
+  section#Hero
+  .hero-container
+  .top
+  .right
+  .button-wrapper
+  button.secondary-button {
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 16px;
+}
+.App
+  main
+  section#Hero
+  .hero-container
+  .top
+  .right
+  .button-wrapper
+  button.secondary-button
+  span {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.App
+  main
+  section#Hero
+  .hero-container
+  .top
+  .right
+  .button-wrapper
+  button.secondary-button
+  span
+  p {
+  margin: 0;
+}
+.App main section#Hero .hero-container .bottom {
+  position: relative;
+  height: 360px;
+}
+.App main section#Hero .hero-container .bottom img {
+  width: 100%;
+  height: 720px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.App main section#Services {
+  background-color: #fff;
+}
+.App main section#Services .services-container .services--details {
+  display: flex;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  margin-top: 350px;
+}
+.App
+  main
+  section#Services
+  .services-container
+  .services--details
+  .services--title {
+  flex: 1;
+  font-size: 32px;
+  font-weight: 700;
+  padding: 20px 0;
+  color: #123;
+}
+.App
+  main
+  section#Services
+  .services-container
+  .services--details
+  .services--desc {
+  padding: 20px 0;
+  flex: 1;
+  color: #123;
+}
+.App main section#Services .services-container .services--items {
+  padding-top: 48px;
+  padding-bottom: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 16px;
+}
+.App main section#Services .services-container .services--items .services-card {
+  flex: 1;
+  height: 240px;
+  width: 568px;
+  min-width: 360px;
+  padding: 32px;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+}
+.App
+  main
+  section#Services
+  .services-container
+  .services--items
+  .services-card
+  img {
+  height: 64px;
+  width: 64px;
+  box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.App
+  main
+  section#Services
+  .services-container
+  .services--items
+  .services-card
+  h1 {
+  color: #123;
+}
+.App
+  main
+  section#Services
+  .services-container
+  .services--items
+  .services-card
+  p {
+  color: #123;
+}
+.App
+  main
+  section#Services
+  .services-container
+  .services--items
+  .services-card
+  a {
+  color: #123;
+}
+.App main section#Dedicated {
+  background-color: #123;
+}
+.App main section#Dedicated .dedicated-container {
+  display: flex;
+}
+.App main section#Dedicated .dedicated-container .left {
+  align-self: center;
+  flex: 6;
+  padding: 20px 0;
+}
+.App main section#Dedicated .dedicated-container .left h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  max-width: 540px;
+  margin: 0;
+}
+.App main section#Dedicated .dedicated-container .left p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #a4a4a4;
+  max-width: 500px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+.App main section#Dedicated .dedicated-container .left ul li {
+  margin-bottom: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  max-width: 500px;
+  list-style-type: square;
+}
+.App main section#Dedicated .dedicated-container .right {
+  flex: 5;
+}
+.App main section#Dedicated .dedicated-container .right img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.App main section#Work .work-container .work--details {
+  display: flex;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.App main section#Work .work-container .work--details .work--title {
+  flex: 1;
+  font-size: 32px;
+  font-weight: 700;
+  padding: 20px 0;
+  color: #123;
+}
+.App main section#Work .work-container .work--details .work--desc {
+  flex: 1;
+  color: #123;
+}
+.App main section#Work .work-container .work--items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 48px;
+  padding-bottom: 120px;
+}
+.App
+  main
+  section#Work
+  .work-container
+  .work--items
+  .work-card:nth-child(1)
+  .work-card--img {
+  background-image: url("https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-size: cover;
+}
+.App
+  main
+  section#Work
+  .work-container
+  .work--items
+  .work-card:nth-child(2)
+  .work-card--img {
+  background-image: url("https://images.unsplash.com/photo-1579226905180-636b76d96082?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-size: cover;
+}
+.App
+  main
+  section#Work
+  .work-container
+  .work--items
+  .work-card:nth-child(3)
+  .work-card--img {
+  background-image: url("https://images.unsplash.com/photo-1579389083395-4507e98b5e67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-size: cover;
+}
+.App main section#Work .work-container .work--items .work-card {
+  max-width: 360px;
+  margin: 32px 0;
+}
+.App main section#Work .work-container .work--items .work-card .work-card--img {
+  height: 480px;
+  background-color: #123;
+}
+.App
+  main
+  section#Work
+  .work-container
+  .work--items
+  .work-card
+  .work-card--img
+  .work-card--number {
+  height: 64px;
+  width: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #123;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-left: 24px;
+}
+.App
+  main
+  section#Work
+  .work-container
+  .work--items
+  .work-card
+  .work-card--title {
+  color: #123;
+}
+.App
+  main
+  section#Work
+  .work-container
+  .work--items
+  .work-card
+  .work-card--desc {
+  color: rgba(17, 34, 51, 0.8666666667);
+}
+.App footer {
+  background-color: #123;
+}
+.App footer .footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App footer .footer-container h1 {
+  text-align: center;
+  margin-top: 48px;
+}
+.App footer .footer-container p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5333333333);
+  max-width: 450px;
+}
+.App footer .footer-container button {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  height: 48px;
+  width: 180px;
+  background-color: rgb(231, 90, 38);
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: 0 0 14px 1px rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.App footer .footer-container .bottom-nav {
+  padding-top: 20px;
+  padding-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.App footer .footer-container .bottom-nav .brand {
+  display: flex;
+  align-items: center;
+}
+.App footer .footer-container .bottom-nav .brand .brand--logo {
+  height: 28px;
+  width: 28px;
+}
+.App footer .footer-container .bottom-nav .brand .brand--name {
+  margin: 0 0 0 16px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+.App footer .footer-container .bottom-nav ul {
+  display: flex;
+  gap: 16px;
+  width: 360px;
+  padding: 0;
+  margin: 0;
+}
+.App footer .footer-container .bottom-nav ul li {
+  list-style: none;
+}
+.App footer .footer-container .bottom-nav ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.5333333333);
+  text-decoration: none;
+}
+.App footer .footer-container .bottom-nav .social-media {
+  width: 360px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
